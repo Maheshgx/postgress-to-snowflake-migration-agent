@@ -170,6 +170,7 @@ Download and review generated artifacts:
 - **[Dev Container Guide](DEVCONTAINER_GUIDE.md)** - Dev container and MCP server setup
 - **[Architecture](ARCHITECTURE.md)** - System design and components
 - **[Requirements](REQUIREMENTS.md)** - System and application requirements
+- **[Project Creation Prompt](PROJECT_CREATION_PROMPT.md)** - Master prompt that created this project
 
 ## 🔑 Key Features in Detail
 
