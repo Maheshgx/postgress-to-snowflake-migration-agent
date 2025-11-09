@@ -163,9 +163,10 @@ Download and review generated artifacts:
 
 ## 📚 Documentation
 
-- **[User Guide](USER_GUIDE.md)** - Step-by-step usage instructions
-- **[Developer Guide](DEVELOPER_GUIDE.md)** - Architecture, codebase, extending
-- **[Setup Instructions](SETUP.md)** - Installation and configuration
+- **[🚀 Getting Started Guide](GETTING_STARTED.md)** - **START HERE!** Complete walkthrough from setup to first migration
+- **[User Guide](USER_GUIDE.md)** - Detailed usage instructions and workflows
+- **[Developer Guide](DEVELOPER_GUIDE.md)** - Code walkthrough and extension points
+- **[Setup Instructions](SETUP.md)** - Advanced installation and configuration
 - **[Dev Container Guide](DEVCONTAINER_GUIDE.md)** - Dev container and MCP server setup
 - **[Architecture](ARCHITECTURE.md)** - System design and components
 - **[Requirements](REQUIREMENTS.md)** - System and application requirements
