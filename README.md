@@ -46,7 +46,7 @@ A production-grade migration agent that analyzes PostgreSQL databases, proposes 
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd "Postgress to Snowflake MIgration Agent"
+cd postgress-to-snowflake-migration-agent
 
 # Install backend dependencies
 pip install -r requirements.txt

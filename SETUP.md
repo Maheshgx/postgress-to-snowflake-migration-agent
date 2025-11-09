@@ -52,7 +52,7 @@ The migration agent needs network access to:
 
 ```bash
 git clone <repository-url>
-cd "Postgress to Snowflake MIgration Agent"
+cd postgress-to-snowflake-migration-agent
 ```
 
 ### Step 2: Backend Setup
