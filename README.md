@@ -168,7 +168,8 @@ Download and review generated artifacts:
 - **[Developer Guide](DEVELOPER_GUIDE.md)** - Code walkthrough and extension points
 - **[Setup Instructions](SETUP.md)** - Advanced installation and configuration
 - **[Intranet Deployment](INTRANET_DEPLOYMENT.md)** - Deploy on company intranet infrastructure
-- **[Dev Container Guide](DEVCONTAINER_GUIDE.md)** - Dev container and MCP server setup
+- **[MCP Deployment](MCP_DEPLOYMENT.md)** - Deploy as AI assistant extension (Claude, etc.)
+- **[Dev Container Guide](DEVCONTAINER_GUIDE.md)** - Dev container and development environment
 - **[Architecture](ARCHITECTURE.md)** - System design and components
 - **[Requirements](REQUIREMENTS.md)** - System and application requirements
 - **[Project Creation Prompt](PROJECT_CREATION_PROMPT.md)** - Master prompt that created this project
