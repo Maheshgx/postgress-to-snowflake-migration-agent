@@ -167,6 +167,7 @@ Download and review generated artifacts:
 - **[User Guide](USER_GUIDE.md)** - Detailed usage instructions and workflows
 - **[Developer Guide](DEVELOPER_GUIDE.md)** - Code walkthrough and extension points
 - **[Setup Instructions](SETUP.md)** - Advanced installation and configuration
+- **[Intranet Deployment](INTRANET_DEPLOYMENT.md)** - Deploy on company intranet infrastructure
 - **[Dev Container Guide](DEVCONTAINER_GUIDE.md)** - Dev container and MCP server setup
 - **[Architecture](ARCHITECTURE.md)** - System design and components
 - **[Requirements](REQUIREMENTS.md)** - System and application requirements
