@@ -516,12 +516,34 @@ pip install --no-cache-dir -r requirements.txt
 
 ---
 
+## Production Deployment
+
+After developing in the dev container, deploy to production:
+
+**For Company Intranet:**
+- See [INTRANET_DEPLOYMENT.md](INTRANET_DEPLOYMENT.md)
+- Single server, load balanced, or Kubernetes
+- Complete security hardening
+- Monitoring and alerting
+
+**For AI Assistant Integration:**
+- See [MCP_DEPLOYMENT.md](MCP_DEPLOYMENT.md)
+- Claude Desktop configuration
+- Server deployment options
+- Natural language interface
+
+---
+
 ## Additional Resources
 
 - **Dev Containers**: https://code.visualstudio.com/docs/devcontainers/containers
 - **MCP Protocol**: https://modelcontextprotocol.io
 - **Docker Compose**: https://docs.docker.com/compose/
-- **Project Docs**: See [README.md](README.md), [DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md)
+- **Getting Started**: [GETTING_STARTED.md](GETTING_STARTED.md)
+- **Intranet Deployment**: [INTRANET_DEPLOYMENT.md](INTRANET_DEPLOYMENT.md)
+- **MCP Deployment**: [MCP_DEPLOYMENT.md](MCP_DEPLOYMENT.md)
+- **Developer Guide**: [DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md)
+- **Project Docs**: See [README.md](README.md)
 
 ---
 

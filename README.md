@@ -43,9 +43,12 @@ A production-grade migration agent that analyzes PostgreSQL databases, proposes 
 
 ### Installation
 
+**See [GETTING_STARTED.md](GETTING_STARTED.md) for complete step-by-step instructions.**
+
+Quick install:
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/Maheshgx/postgress-to-snowflake-migration-agent.git
 cd postgress-to-snowflake-migration-agent
 
 # Install backend dependencies
@@ -91,6 +94,40 @@ docker-compose -f docker-compose.dev.yml up -d
 ```
 
 Access the application at `http://localhost:5173` (dev) or `http://localhost:3000` (production)
+
+**See detailed deployment guides:**
+- [INTRANET_DEPLOYMENT.md](INTRANET_DEPLOYMENT.md) - For company intranet deployment
+- [MCP_DEPLOYMENT.md](MCP_DEPLOYMENT.md) - For AI assistant integration
+- [DEVCONTAINER_GUIDE.md](DEVCONTAINER_GUIDE.md) - For dev container setup
+
+## 🚢 Deployment Options
+
+This migration agent supports multiple deployment scenarios:
+
+### 1. Local Development
+- Direct Python + Node.js execution
+- For development and testing
+- [Getting Started Guide →](GETTING_STARTED.md)
+
+### 2. Docker & Dev Container
+- Single-command deployment
+- Consistent environment across team
+- [Dev Container Guide →](DEVCONTAINER_GUIDE.md)
+
+### 3. Company Intranet
+- **Single Server** - Simple deployment (<100 users)
+- **Load Balanced** - High availability (100-500 users)
+- **Kubernetes** - Enterprise scale (500+ users)
+- Complete security hardening, monitoring, backups
+- [Intranet Deployment Guide →](INTRANET_DEPLOYMENT.md)
+
+### 4. AI Assistant Extension (MCP)
+- Natural language interface via Claude Desktop
+- Automated workflows and analysis
+- Remote or local MCP server deployment
+- [MCP Deployment Guide →](MCP_DEPLOYMENT.md)
+
+---
 
 ## 🏗️ Architecture
 

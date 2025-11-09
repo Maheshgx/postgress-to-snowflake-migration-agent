@@ -487,11 +487,39 @@ tail -f logs/run_log.ndjson | jq .
 
 ---
 
+## Next Steps
+
+Once you've completed your first migration:
+
+### Deploy to Production
+
+**Option 1: Company Intranet**
+See [INTRANET_DEPLOYMENT.md](INTRANET_DEPLOYMENT.md) for:
+- Single server deployment
+- Load balanced (high availability)
+- Kubernetes deployment
+- Complete security configuration
+
+**Option 2: MCP Extension**
+See [MCP_DEPLOYMENT.md](MCP_DEPLOYMENT.md) for:
+- Claude Desktop integration
+- AI assistant natural language interface
+- Server deployment options
+
+**Option 3: Dev Container**
+See [DEVCONTAINER_GUIDE.md](DEVCONTAINER_GUIDE.md) for:
+- VS Code dev container setup
+- Team development environment
+
+---
+
 ## Additional Resources
 
 - **[User Guide](USER_GUIDE.md)** - Detailed usage instructions
 - **[Developer Guide](DEVELOPER_GUIDE.md)** - Code walkthrough
 - **[Setup Instructions](SETUP.md)** - Advanced setup
+- **[Intranet Deployment](INTRANET_DEPLOYMENT.md)** - Production deployment
+- **[MCP Deployment](MCP_DEPLOYMENT.md)** - AI assistant integration
 - **[Dev Container Guide](DEVCONTAINER_GUIDE.md)** - Container setup
 - **[Architecture](ARCHITECTURE.md)** - System design
 - **API Docs**: http://localhost:8000/docs (when running)
