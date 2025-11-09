@@ -63,6 +63,7 @@ cp .env.example .env
 
 ### Running the Application
 
+**Option 1: Local Development**
 ```bash
 # Terminal 1: Start backend API
 cd backend
@@ -73,7 +74,23 @@ cd frontend
 npm run dev
 ```
 
-Access the application at `http://localhost:3000`
+**Option 2: Dev Container (Recommended)**
+```bash
+# Open in VS Code and reopen in container
+# Or use CLI:
+devcontainer open .
+```
+
+**Option 3: Docker Compose**
+```bash
+# Production deployment
+docker-compose up -d
+
+# Development mode
+docker-compose -f docker-compose.dev.yml up -d
+```
+
+Access the application at `http://localhost:5173` (dev) or `http://localhost:3000` (production)
 
 ## 🏗️ Architecture
 
@@ -149,6 +166,7 @@ Download and review generated artifacts:
 - **[User Guide](USER_GUIDE.md)** - Step-by-step usage instructions
 - **[Developer Guide](DEVELOPER_GUIDE.md)** - Architecture, codebase, extending
 - **[Setup Instructions](SETUP.md)** - Installation and configuration
+- **[Dev Container Guide](DEVCONTAINER_GUIDE.md)** - Dev container and MCP server setup
 - **[Architecture](ARCHITECTURE.md)** - System design and components
 - **[Requirements](REQUIREMENTS.md)** - System and application requirements
 

@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "postgres-snowflake-migrator": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "postgress-to-snowflake-migration-agent",
+        "migration-agent"
+      ],
+      "env": {
+        "API_HOST": "0.0.0.0",
+        "API_PORT": "8000",
+        "LOG_LEVEL": "INFO"
+      },
+      "metadata": {
+        "name": "PostgreSQL to Snowflake Migration Agent",
+        "version": "1.0.0",
+        "description": "MCP server for PostgreSQL to Snowflake database migration",
+        "author": "Migration Team",
+        "capabilities": {
+          "prompts": true,
+          "resources": true,
+          "tools": true
+        }
+      }
+    }
+  }
+}

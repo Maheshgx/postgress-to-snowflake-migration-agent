@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ..:/workspace:cached
+    command: sleep infinity
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - LOG_LEVEL=DEBUG
+      - ALLOWED_ORIGINS=http://localhost:3000,http://localhost:5173
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+    networks:
+      - migration-network
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:15-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: testdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+      - ./test-data:/docker-entrypoint-initdb.d
+    networks:
+      - migration-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres-data:
+
+networks:
+  migration-network:
+    driver: bridge

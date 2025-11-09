@@ -73,3 +73,11 @@ htmlcov/
 *.bak
 *.swp
 *~.nib
+
+# Docker
+.docker/
+docker-compose.override.yml
+postgres-data/
+
+# Dev Container
+.devcontainer/.env
